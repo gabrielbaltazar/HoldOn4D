@@ -105,6 +105,9 @@
             <FormType>dfm</FormType>
             <DesignClass>TIWUserSessionBase</DesignClass>
         </DCCReference>
+        <DCCReference Include="..\..\Source\HoldOn4D.Types.pas"/>
+        <DCCReference Include="..\..\Source\HoldOn4D.Interfaces.pas"/>
+        <DCCReference Include="..\..\Source\HoldOn4D.IW.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -135,7 +138,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="4">
-                <DeployFile LocalName="Win32\Debug\DemoHoldOn4D.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Bin\DemoHoldOn4D.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>DemoHoldOn4D.exe</RemoteName>
                         <Overwrite>true</Overwrite>
